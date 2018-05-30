@@ -1,4 +1,4 @@
-unit CAv2;
+п»їunit CAv2;
 
 function GetKeyState(nVirtKey: byte): byte;
 external 'User32.dll' name 'GetKeyState';
@@ -196,7 +196,9 @@ begin
                 end;
                 writeln;
               end;
-              write('вы проиграли со счётом ' + Steps + char(10) + 'нажмите Enter для рестарта' + char(10) + 'нажмите Ecs для выхода');
+              Writeln($'You died with {Steps} steps');
+              Writeln('Press Enter to restart');
+              Writeln('Press Ecs to exit');
               while true do
               begin
                 if GetKeyState(13) div 128 = 1 then

@@ -8,9 +8,4 @@ Small, old-school game. You play as ![image](https://user-images.githubuserconte
 
 Controls: arrow keys; Get the most score (steps) you can. If you die you get a sad screen:
 
-![image](https://user-images.githubusercontent.com/27270190/39130895-df17b2be-4716-11e8-9228-05d5cbf2bd3b.png)
-
-Where you can:
-- See your score
-- Press Enter to restart
-- Press Esc to exit
+![image](https://user-images.githubusercontent.com/27270190/40713811-8d69fd22-6409-11e8-9e1a-fda4467fa914.png)
